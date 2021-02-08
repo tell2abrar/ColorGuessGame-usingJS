@@ -1,0 +1,73 @@
+body{
+	background-color: black;
+	margin: 0;
+}
+
+h1{
+	color:white;
+	margin: 0 auto;
+	padding-bottom: 7%;
+	padding-top: 4%;
+	text-align: center;
+	background-color: rgb(52, 104, 235);
+}
+
+
+
+.box{
+	background-color:black;
+	width: 26.5%;
+	float: left;
+	margin: 2%;
+	padding-bottom: 23%;
+	border-radius: 20%;
+	transition: all 1.0s;
+}
+
+#container
+{
+	width: 50%;
+	height: 6%;
+	margin:0 auto;
+	margin-top: 2.5%;
+}
+
+#container1{
+	
+	background-color: white;
+	margin: 0;
+	text-align: center;
+}
+
+button{
+	background:none;
+    border: none; 
+    color: rgb(52, 104, 235);
+    font-weight: bold;
+    margin-right: 4%;
+    margin-left: 2%;
+    height:100%;
+}
+button:hover{
+	background-color: rgb(52, 104, 235);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	border: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 4%;
+    margin-left: 2%;
+}
+
+.selected
+{
+	background-color: rgb(52, 104, 235);
+	color:white;
+}
+
+#message{
+	font-family: sans-serif;
+	font-size: 100%;
+	font-weight: bold;
+}
+
